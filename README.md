@@ -8,9 +8,15 @@
 </h2>
 <div align="center">
     <p align="center">
+<<<<<<< HEAD
         <img src="docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
         <img src="docs/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
         <img src="docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+=======
+        <img src="C:/Users/tjenn/eclipse-workspace/LTM_he_thong_canh_bao_thoi_gian_thuc/docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+        <img src="C:/Users/tjenn/eclipse-workspace/LTM_he_thong_canh_bao_thoi_gian_thuc/docs/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
+        <img src="C:/Users/tjenn/eclipse-workspace/LTM_he_thong_canh_bao_thoi_gian_thuc/docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+>>>>>>> a9efeb8c0dad77015683755679c96ee8f152ff26
     </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
@@ -32,4 +38,8 @@ Học phần trang bị cho người học những kiến thức nền tảng c�
 
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> a9efeb8c0dad77015683755679c96ee8f152ff26
