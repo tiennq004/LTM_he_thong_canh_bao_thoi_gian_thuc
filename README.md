@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-   NETWORK PROGRAMMING
+   HỆ THỐNG CẢNH BÁO THÒI GIAN THỰC
 </h2>
 <div align="center">
     <p align="center">
