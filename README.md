@@ -9,9 +9,9 @@
 <div align="center">
     <p align="center">
 <<<<<<< HEAD
-        <img src="docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="docs/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
-        <img src="docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+        <img src="[docs](https://github.com/tiennq004/LTP_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs)/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+        <img src="[docs](https://github.com/tiennq004/LTP_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs)/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
+        <img src="[docs](https://github.com/tiennq004/LTP_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs)/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
 =======
         <img src="C:/Users/tjenn/eclipse-workspace/LTM_he_thong_canh_bao_thoi_gian_thuc/docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
         <img src="C:/Users/tjenn/eclipse-workspace/LTM_he_thong_canh_bao_thoi_gian_thuc/docs/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
