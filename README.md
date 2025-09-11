@@ -8,7 +8,6 @@
 </h2>
 <div align="center">
     <p align="center">
-<<<<<<< HEAD
         <img src="https://github.com/tiennq004/LTP_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
         <img src="https://github.com/tiennq004/LTP_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
         <img src="https://github.com/tiennq004/LTP_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
