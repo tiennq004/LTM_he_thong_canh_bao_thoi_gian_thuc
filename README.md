@@ -3,9 +3,8 @@
     🎓 Faculty of Information Technology (DaiNam University)
     </a>
 </h2>
-<h2 align="center">
-   NETWORK PROGRAMMING  
-   HỆ THỐNG CẢNH BÁO THỜI GIAN THỰC (UDP)
+<h2 align="center">  
+   HỆ THỐNG CẢNH BÁO THỜI GIAN THỰC SỬ DỤNG GIAO THỨC UDP
 </h2>
 
 <div align="center">
@@ -47,8 +46,7 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 - **An ninh**: Cảnh báo đột nhập, sự cố trong khu vực cần giám sát.  
 - **IoT – Smart City**: Hệ thống cảm biến trong đô thị thông minh có thể gửi thông báo sự cố giao thông, ngập lụt, hoặc thiên tai đến cư dân.  
 
-
-### 1.4. Kỹ thuật sử dụng
+1.4. Kỹ thuật sử dụng
 - **Ngôn ngữ**: Java.  
 - **Giao thức truyền thông**: UDP (User Datagram Protocol).  
   - Ưu điểm: nhanh, không yêu cầu kết nối liên tục, hỗ trợ broadcast/multicast để gửi tin đến nhiều Client cùng lúc.  
@@ -57,25 +55,19 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
   - Server (UDP Sender) phát cảnh báo qua broadcast/multicast.  
   - Client (UDP Receiver) chỉ cần đăng ký cổng (port) là có thể nhận dữ liệu.  
 
----
-
-### 1.5. Kết quả mong đợi
+1.5. Kết quả mong đợi
 - Hệ thống **mô phỏng thành công** quá trình gửi – nhận cảnh báo thời gian thực.  
 - Server có thể phát cảnh báo đến **nhiều Client cùng lúc**.  
 - Client hiển thị thông tin cảnh báo ngay lập tức khi nhận được.  
 - Bộ mã nguồn được tổ chức rõ ràng, có thể mở rộng để tích hợp thêm các chức năng: lưu log, giao diện đồ họa, gửi thông báo đa nền tảng (Mobile/Web).  
 
----
-
-## 🔧 2. Công nghệ & Công cụ sử dụng
+ 🔧 2. Công nghệ & Công cụ sử dụng
 - Ngôn ngữ lập trình: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)  
 - IDE: Eclipse / IntelliJ IDEA  
 - Giao thức: **UDP (Datagram Socket)**  
 - Quản lý mã nguồn: Git & GitHub  
 
----
-
-## ⚙️ 3. Kiến trúc hệ thống
+ ⚙️ 3. Kiến trúc hệ thống
 - **Server (UDP Sender)**:  
   - Đóng vai trò trung tâm.  
   - Khi có sự cố, Server sẽ gửi thông điệp cảnh báo qua UDP broadcast/multicast.  
