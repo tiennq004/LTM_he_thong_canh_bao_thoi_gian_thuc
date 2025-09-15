@@ -22,9 +22,9 @@
 
 ---
 
-## 📖 1. Giới thiệu
+1. Giới thiệu
 
-### 1.1. Bối cảnh
+1.1. Bối cảnh
 Trong thời đại **chuyển đổi số** và **Internet of Things (IoT)**, nhu cầu **cảnh báo khẩn cấp theo thời gian thực** ngày càng trở nên cấp thiết. Các hệ thống truyền thống (như loa phóng thanh, chuông báo cháy, thông báo nội bộ) thường có nhiều hạn chế:
 - Phạm vi cảnh báo hẹp, khó tiếp cận nhiều đối tượng cùng lúc.  
 - Tốc độ truyền tải thông tin chậm, có thể gây ra độ trễ trong tình huống khẩn cấp.  
@@ -32,9 +32,7 @@ Trong thời đại **chuyển đổi số** và **Internet of Things (IoT)**, n
 
 Do đó, việc nghiên cứu và xây dựng **hệ thống cảnh báo thời gian thực trên nền tảng lập trình mạng** là hết sức cần thiết, không chỉ phục vụ mục tiêu học tập mà còn có thể ứng dụng trong thực tiễn.
 
----
-
-### 1.2. Mục tiêu
+1.2. Mục tiêu
 Đề tài **Hệ thống cảnh báo thời gian thực (Server gửi cảnh báo tới nhiều Client qua UDP)** được xây dựng với các mục tiêu chính:  
 - **Xây dựng mô hình Client–Server** sử dụng Java Socket.  
 - **Server đóng vai trò trung tâm**: khi phát hiện sự cố, nó sẽ gửi thông báo cảnh báo đến toàn bộ Client đang hoạt động.  
@@ -42,19 +40,13 @@ Do đó, việc nghiên cứu và xây dựng **hệ thống cảnh báo thời 
 - Tìm hiểu cách sử dụng **UDP DatagramSocket và DatagramPacket** trong Java để triển khai cơ chế **truyền tin một-nhiều (one-to-many)**.  
 - Đảm bảo thông báo cảnh báo được truyền tải nhanh chóng với **độ trễ thấp**, đáp ứng yêu cầu của một hệ thống thời gian thực.  
 
----
-
-### 1.3. Ý nghĩa thực tiễn
+1.3. Ý nghĩa thực tiễn
 Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:  
 - **An toàn – PCCC**: Hệ thống báo cháy trong tòa nhà, nhà máy; khi có khói/nhiệt độ bất thường → Server gửi cảnh báo đến toàn bộ máy tính hoặc thiết bị di động trong mạng.  
 - **Y tế & môi trường**: Cảnh báo rò rỉ khí độc, chất thải, mức độ ô nhiễm vượt ngưỡng cho phép.  
 - **An ninh**: Cảnh báo đột nhập, sự cố trong khu vực cần giám sát.  
 - **IoT – Smart City**: Hệ thống cảm biến trong đô thị thông minh có thể gửi thông báo sự cố giao thông, ngập lụt, hoặc thiên tai đến cư dân.  
 
-👉 **Ví dụ minh họa**:  
-Trong ký túc xá sinh viên, khi cảm biến phát hiện khói → Server lập tức gửi cảnh báo đến nhiều Client (máy tính hoặc điện thoại của sinh viên và quản lý ký túc). Tất cả mọi người đều nhận được cảnh báo gần như ngay lập tức để kịp thời xử lý tình huống.  
-
----
 
 ### 1.4. Kỹ thuật sử dụng
 - **Ngôn ngữ**: Java.  
