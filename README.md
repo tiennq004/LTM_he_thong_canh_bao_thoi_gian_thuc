@@ -67,24 +67,13 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 - Giao thức: **UDP (Datagram Socket)**  
 - Quản lý mã nguồn: Git & GitHub  
 
- ⚙️ 3. Kiến trúc hệ thống
-- **Server (UDP Sender)**:  
-  - Đóng vai trò trung tâm.  
-  - Khi có sự cố, Server sẽ gửi thông điệp cảnh báo qua UDP broadcast/multicast.  
 
-- **Client (UDP Receiver)**:  
-  - Nhiều Client có thể chạy song song.  
-  - Nhận và hiển thị thông báo cảnh báo theo **thời gian thực**.  
-
-📌 **Mô hình hoạt động:**
+## 🚀 3. Hình ảnh các chức năng chính
 
 
-## 🚀 4. Hình ảnh các chức năng chính
+## 📂 4. Các bước cài đặt
 
-
-## 📂 5. Cấu trúc thư mục
-
-## 🧑‍💻 6. Người thực hiện
+## 🧑‍💻 5. Người thực hiện
 - Sinh viên: **Nguyễn Quang Tiến** (MSSV: 1671020318)  
 - Lớp: CNTT 16-03 – Đại học Đại Nam  
 - Học phần: Lập trình mạng  
