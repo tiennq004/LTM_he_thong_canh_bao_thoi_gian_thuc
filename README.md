@@ -79,12 +79,8 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 📌 **Mô hình hoạt động:**
 
 
-## 🚀 4. Chức năng chính
-- [x] Server gửi thông điệp cảnh báo theo giao thức UDP.  
-- [x] Nhiều Client có thể cùng nhận được thông điệp.  
-- [x] Hiển thị cảnh báo tức thì trên Client.  
-- [ ] Bổ sung log lưu trữ lịch sử cảnh báo *(dự kiến mở rộng)*.  
-- [ ] Gửi cảnh báo đa nền tảng (Mobile/Desktop/Web) *(dự kiến phát triển)*.  
+## 🚀 4. Hình ảnh các chức năng chính
+
 
 ## 📂 5. Cấu trúc thư mục
 
