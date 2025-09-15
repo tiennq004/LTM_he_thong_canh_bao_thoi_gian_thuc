@@ -29,7 +29,7 @@ Trong thời đại **chuyển đổi số** và **Internet of Things (IoT)**, n
 - Tốc độ truyền tải thông tin chậm, có thể gây ra độ trễ trong tình huống khẩn cấp.  
 - Khó tích hợp với các ứng dụng hiện đại như smartphone, hệ thống giám sát tự động hay nền tảng IoT.  
 
-Do đó, việc nghiên cứu và xây dựng **hệ thống cảnh báo thời gian thực trên nền tảng lập trình mạng** là hết sức cần thiết, không chỉ phục vụ mục tiêu học tập mà còn có thể ứng dụng trong thực tiễn.
+    Do đó, việc nghiên cứu và xây dựng **hệ thống cảnh báo thời gian thực trên nền tảng lập trình mạng** là hết sức cần thiết, không chỉ phục vụ mục tiêu học tập mà còn có thể ứng dụng trong thực tiễn.
 
 1.2. Mục tiêu
 Đề tài **Hệ thống cảnh báo thời gian thực (Server gửi cảnh báo tới nhiều Client qua UDP)** được xây dựng với các mục tiêu chính:  
