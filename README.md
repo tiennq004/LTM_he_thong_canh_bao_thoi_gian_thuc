@@ -77,18 +77,7 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
   - Nhận và hiển thị thông báo cảnh báo theo **thời gian thực**.  
 
 📌 **Mô hình hoạt động:**
-    ┌─────────────┐       UDP Broadcast        ┌─────────────┐
-    │             │  ----------------------->  │             │
-    │   SERVER    │ ----------------------->  │   CLIENT 1  │
-    │ (Datagram)  │ ----------------------->  │             │
-    └─────────────┘                           └─────────────┘
-           │
-           │
-           │                           ┌─────────────┐
-           └-------------------------> │   CLIENT 2  │
-                                       └─────────────┘
 
----
 
 ## 🚀 4. Chức năng chính
 - [x] Server gửi thông điệp cảnh báo theo giao thức UDP.  
@@ -97,18 +86,12 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 - [ ] Bổ sung log lưu trữ lịch sử cảnh báo *(dự kiến mở rộng)*.  
 - [ ] Gửi cảnh báo đa nền tảng (Mobile/Desktop/Web) *(dự kiến phát triển)*.  
 
----
-
 ## 📂 5. Cấu trúc thư mục
-
----
 
 ## 🧑‍💻 6. Người thực hiện
 - Sinh viên: **Nguyễn Quang Tiến** (MSSV: 1671020318)  
 - Lớp: CNTT 16-03 – Đại học Đại Nam  
 - Học phần: Lập trình mạng  
-
----
 
 ## 📝 7. License
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
