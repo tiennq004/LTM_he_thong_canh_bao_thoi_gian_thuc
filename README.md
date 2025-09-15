@@ -103,9 +103,9 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 
 ---
 
-## 🧑‍💻 6. Nhóm thực hiện
-- Sinh viên: **Bùi Thị Hoa** (MSSV: 39)  
-- Lớp: Công nghệ thông tin – Đại học Đại Nam  
+## 🧑‍💻 6. Người thực hiện
+- Sinh viên: **Nguyễn Quang Tiến** (MSSV: 1671020318)  
+- Lớp: CNTT 16-03 – Đại học Đại Nam  
 - Học phần: Lập trình mạng  
 
 ---
