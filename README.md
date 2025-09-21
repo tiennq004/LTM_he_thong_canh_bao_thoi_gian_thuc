@@ -69,7 +69,9 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 
 
 ## 🚀 3. Hình ảnh các chức năng chính
-![Server GUI](./docs/1.png)  
+<p align="center">
+  <img src="" alt="Ảnh 1" width="800"/>
+</p> 
 
 ## 📂 4. Các bước cài đặt
 
