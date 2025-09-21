@@ -141,71 +141,69 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 ## 📂 4. Các bước cài đặt
 Bước 1: Tải dự án
 
-    - Clone từ GitHub hoặc tải file zip về:
+- Clone từ GitHub hoặc tải file zip về:
 
-    - git clone <repository_url>
+git clone <repository_url>
 
 Bước 2: Chuẩn bị môi trường
 
-Cài đặt JDK 8+.
+- Cài đặt JDK 8+.
 
-Mở IDE Java và import dự án.
+- Mở IDE Java và import dự án.
 
 Bước 3: Chạy server
 
-Mở AlertServer.java.
+- Mở AlertServer.java.
 
-Chạy file (Run/Debug).
+- Chạy file (Run/Debug).
 
-Server sẽ khởi tạo giao diện GUI với:
+- Server sẽ khởi tạo giao diện GUI với:
 
-Log
+- Log
 
-Danh sách client
+- Danh sách client
 
-Lịch sử cảnh báo
+- Lịch sử cảnh báo
 
-Server sẽ tự động lắng nghe các client đăng ký.
+- Server sẽ tự động lắng nghe các client đăng ký.
 
 Bước 4: Chạy client
 
-Mở AlertClient.java.
+- Mở AlertClient.java.
 
-Chạy file.
+- Chạy file.
 
-Nhập số tầng khi được hỏi (hoặc mặc định tạo ngẫu nhiên).
+- Nhập số tầng khi được hỏi (hoặc mặc định tạo ngẫu nhiên).
 
-Client sẽ tự động:
+- Client sẽ tự động:
 
-Gửi đăng ký (REGISTER) tới server
++ Gửi đăng ký (REGISTER) tới server
 
-Nhận cảnh báo
++ Nhận cảnh báo
 
-Hiển thị popup và bảng thông tin cảnh báo
-
-Phát âm thanh tương ứng
++ Hiển thị popup và bảng thông tin cảnh báo
 
 Bước 5: Gửi cảnh báo
 
-Trên server, nhập:
+- Trên server, nhập:
 
-Loại cảnh báo
++ Loại cảnh báo
 
-Mức độ
++ Mức độ
 
-Nội dung
++ Nội dung
 
-Hẹn giờ (tùy chọn)
++ Hẹn giờ (tùy chọn)
 
-Bấm Gửi ngay hoặc Hẹn giờ gửi.
++ Bấm Gửi ngay hoặc Hẹn giờ gửi.
 
-Client nhận và hiển thị cảnh báo.
++ Client nhận và hiển thị cảnh báo.
 
 Bước 6: Kiểm tra log
 
-Server: server_log.csv
+- Server: server_log.csv
 
-Client: client_log_floorX.csv
+- Client: client_log_floorX.csv
 
 
 ## 🧑‍💻 5. Người thực hiện
