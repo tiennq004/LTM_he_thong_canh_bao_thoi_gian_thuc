@@ -70,7 +70,7 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 
 ## 🚀 3. Hình ảnh các chức năng chính
 <p align="center">
-  <img src="" alt="Ảnh 1" width="800"/>
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server.png" alt="Ảnh 1" width="800"/>
 </p> 
 
 ## 📂 4. Các bước cài đặt
