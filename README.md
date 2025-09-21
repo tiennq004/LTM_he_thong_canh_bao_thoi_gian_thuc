@@ -22,6 +22,7 @@
 ---
 
 📖 1. Giới thiệu hệ thống
+
 Hệ thống cảnh báo thời gian thực tại chung cư The Vesta sử dụng mô hình Client–Server với giao thức UDP, cho phép nhiều tầng/cư dân nhận cảnh báo cùng lúc.
 
 Server: đóng vai trò trung tâm, gửi cảnh báo đến tất cả Client đang hoạt động, lưu lịch sử cảnh báo và quản lý kết nối.
