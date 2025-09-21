@@ -145,5 +145,4 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 - Lớp: CNTT 16-03 – Đại học Đại Nam  
 - Học phần: Lập trình mạng  
 
-## 📝 7. License
 © 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
