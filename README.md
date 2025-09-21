@@ -104,6 +104,33 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
   <em>Hình 5: Giao diện của Server và Client khi gửi cảnh báo </em>
 </p>
 
+<p align="center">
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server_va_client_khi_canh_bao_hen_gio.png" alt="Ảnh 6" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 6: Giao diện của Server và Client khi gửi cảnh báo có hẹn giờ và tự động cảnh báo sau 5s </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/Server_khi_dung_canh_bao.png" alt="Ảnh 7" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 7: Giao diện Server khi dừng cảnh báo </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/thong_tin_2_client.png" alt="Ảnh 8" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 8: Thông tin của 2 Client </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/lich_su_gui_canh_bao_va_so_client_nhan_duoc_canh_bao.png" alt="Ảnh 9" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 8: Lịch sử cảnh báo và số CLient nhận được cảnh báo </em>
+</p>
 ## 📂 4. Các bước cài đặt
 
 ## 🧑‍💻 5. Người thực hiện
