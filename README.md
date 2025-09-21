@@ -143,7 +143,7 @@ Bước 1: Tải dự án
 
 - Clone từ GitHub hoặc tải file zip về:
 
-git clone <repository_url>
+    git clone <repository_url>
 
 Bước 2: Chuẩn bị môi trường
 
@@ -159,13 +159,13 @@ Bước 3: Chạy server
 
 - Server sẽ khởi tạo giao diện GUI với:
 
-- Log
+    + Log
 
-- Danh sách client
+    + Danh sách client
 
-- Lịch sử cảnh báo
+    + Lịch sử cảnh báo
 
-- Server sẽ tự động lắng nghe các client đăng ký.
+    + Server sẽ tự động lắng nghe các client đăng ký.
 
 Bước 4: Chạy client
 
@@ -177,27 +177,27 @@ Bước 4: Chạy client
 
 - Client sẽ tự động:
 
-+ Gửi đăng ký (REGISTER) tới server
+    + Gửi đăng ký (REGISTER) tới server
 
-+ Nhận cảnh báo
+    + Nhận cảnh báo
 
-+ Hiển thị popup và bảng thông tin cảnh báo
+    + Hiển thị popup và bảng thông tin cảnh báo
 
 Bước 5: Gửi cảnh báo
 
 - Trên server, nhập:
 
-+ Loại cảnh báo
+    + Loại cảnh báo
 
-+ Mức độ
+    + Mức độ
 
-+ Nội dung
+    + Nội dung
 
-+ Hẹn giờ (tùy chọn)
+    + Hẹn giờ (tùy chọn)
 
-+ Bấm Gửi ngay hoặc Hẹn giờ gửi.
+    + Bấm Gửi ngay hoặc Hẹn giờ gửi.
 
-+ Client nhận và hiển thị cảnh báo.
+    + Client nhận và hiển thị cảnh báo.
 
 Bước 6: Kiểm tra log
 
