@@ -80,7 +80,7 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
   <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/client_1.png" alt="Ảnh 2" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 2: Đăng ký để khởi chạy Client </em>
+  <em>Hình 2: Khởi chạy Client </em>
 </p>
 
 <p align="center">
@@ -94,14 +94,14 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
   <img src="[https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_client_1.png](https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server_khi_khoi_chay_2_client.png)" alt="Ảnh 4" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 3: Giao diện của Server khi khởi chạy 2 Client </em>
+  <em>Hình 4: Giao diện của Server khi khởi chạy 2 Client </em>
 </p>
 
 <p align="center">
-  <img src="[https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_client_1.png](https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server_khi_khoi_chay_2_client.png)" alt="Ảnh 4" width="800"/>
+  <img src="[https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server_va_client_khi_gui_canh_bao.png)" alt="Ảnh 5" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 3: Giao diện của Server khi khởi chạy 2 Client </em>
+  <em>Hình 5: Giao diện của Server và Client khi gửi cảnh báo </em>
 </p>
 
 ## 📂 4. Các bước cài đặt
