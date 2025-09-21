@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">  
-   HỆ THỐNG CẢNH BÁO THỜI GIAN THỰC SỬ DỤNG GIAO THỨC UDP
+   HỆ THỐNG CẢNH BÁO THỜI GIAN THỰC (SERVER GỬI CẢNH BÁO TỚI NHIỀU CLIENT QUA UDP)
 </h2>
 
 <div align="center">
