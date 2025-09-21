@@ -132,7 +132,7 @@ Các chức năng chính:
   <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/lich_su_gui_canh_bao_va_so_client_nhan_duoc_canh_bao.png" alt="Ảnh 9" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 9: Lịch sử cảnh báo và số CLient nhận được cảnh báo </em>
+  <em>Hình 9: Lịch sử cảnh báo và số Client nhận được cảnh báo </em>
 </p>
 
 <p align="center">
