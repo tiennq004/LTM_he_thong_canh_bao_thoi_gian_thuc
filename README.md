@@ -141,9 +141,9 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 ## 📂 4. Các bước cài đặt
 Bước 1: Tải dự án
 
-Clone từ GitHub hoặc tải file zip về:
+    - Clone từ GitHub hoặc tải file zip về:
 
-git clone <repository_url>
+    - git clone <repository_url>
 
 Bước 2: Chuẩn bị môi trường
 
