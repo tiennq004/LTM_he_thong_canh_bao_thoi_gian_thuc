@@ -142,12 +142,15 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 Bước 1: Tải dự án
 
 Clone từ GitHub hoặc tải file zip về:
+
 git clone <repository_url>
+
 Bước 2: Chuẩn bị môi trường
 
 Cài đặt JDK 8+.
 
 Mở IDE Java và import dự án.
+
 Bước 3: Chạy server
 
 Mở AlertServer.java.
