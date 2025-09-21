@@ -21,47 +21,49 @@
 
 ---
 
-1. Giới thiệu
+📖 1. Giới thiệu hệ thống
+Hệ thống cảnh báo thời gian thực tại chung cư The Vesta sử dụng mô hình Client–Server với giao thức UDP, cho phép nhiều tầng/cư dân nhận cảnh báo cùng lúc.
 
-1.1. Bối cảnh
-Trong thời đại **chuyển đổi số** và **Internet of Things (IoT)**, nhu cầu **cảnh báo khẩn cấp theo thời gian thực** ngày càng trở nên cấp thiết. Các hệ thống truyền thống (như loa phóng thanh, chuông báo cháy, thông báo nội bộ) thường có nhiều hạn chế:
-- Phạm vi cảnh báo hẹp, khó tiếp cận nhiều đối tượng cùng lúc.  
-- Tốc độ truyền tải thông tin chậm, có thể gây ra độ trễ trong tình huống khẩn cấp.  
-- Khó tích hợp với các ứng dụng hiện đại như smartphone, hệ thống giám sát tự động hay nền tảng IoT.  
+Server: đóng vai trò trung tâm, gửi cảnh báo đến tất cả Client đang hoạt động, lưu lịch sử cảnh báo và quản lý kết nối.
+Client: nhận cảnh báo, hiển thị thông tin và phát âm thanh tương ứng với mức độ khẩn cấp.
 
-    Do đó, việc nghiên cứu và xây dựng **hệ thống cảnh báo thời gian thực trên nền tảng lập trình mạng** là hết sức cần thiết, không chỉ phục vụ mục tiêu học tập mà còn có thể ứng dụng trong thực tiễn.
+Các chức năng chính:
 
-1.2. Mục tiêu
-Đề tài **Hệ thống cảnh báo thời gian thực (Server gửi cảnh báo tới nhiều Client qua UDP)** được xây dựng với các mục tiêu chính:  
-- **Xây dựng mô hình Client–Server** sử dụng Java Socket.  
-- **Server đóng vai trò trung tâm**: khi phát hiện sự cố, nó sẽ gửi thông báo cảnh báo đến toàn bộ Client đang hoạt động.  
-- **Client đóng vai trò đầu cuối**: lắng nghe và hiển thị thông tin cảnh báo tức thì.  
-- Tìm hiểu cách sử dụng **UDP DatagramSocket và DatagramPacket** trong Java để triển khai cơ chế **truyền tin một-nhiều (one-to-many)**.  
-- Đảm bảo thông báo cảnh báo được truyền tải nhanh chóng với **độ trễ thấp**, đáp ứng yêu cầu của một hệ thống thời gian thực.  
+🖥️ Chức năng của Server:
 
-1.3. Ý nghĩa thực tiễn
-Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:  
-- **An toàn – PCCC**: Hệ thống báo cháy trong tòa nhà, nhà máy; khi có khói/nhiệt độ bất thường → Server gửi cảnh báo đến toàn bộ máy tính hoặc thiết bị di động trong mạng.  
-- **Y tế & môi trường**: Cảnh báo rò rỉ khí độc, chất thải, mức độ ô nhiễm vượt ngưỡng cho phép.  
-- **An ninh**: Cảnh báo đột nhập, sự cố trong khu vực cần giám sát.  
-- **IoT – Smart City**: Hệ thống cảm biến trong đô thị thông minh có thể gửi thông báo sự cố giao thông, ngập lụt, hoặc thiên tai đến cư dân.  
+- Kết nối & quản lý Client: Lắng nghe các Client đăng ký, lưu danh sách Client đang hoạt động, quản lý IP/port/tầng.
 
-1.4. Kỹ thuật sử dụng
-- **Ngôn ngữ**: Java.  
-- **Giao thức truyền thông**: UDP (User Datagram Protocol).  
-  - Ưu điểm: nhanh, không yêu cầu kết nối liên tục, hỗ trợ broadcast/multicast để gửi tin đến nhiều Client cùng lúc.  
-  - Nhược điểm: không đảm bảo tính tin cậy tuyệt đối (có thể mất gói tin), tuy nhiên chấp nhận được trong bối cảnh **cảnh báo** (ưu tiên tốc độ hơn độ chính xác tuyệt đối).  
-- **Mô hình**:  
-  - Server (UDP Sender) phát cảnh báo qua broadcast/multicast.  
-  - Client (UDP Receiver) chỉ cần đăng ký cổng (port) là có thể nhận dữ liệu.  
+- Gửi cảnh báo: Server phát cảnh báo đến tất cả Client (one-to-many), có thể chia gói tin dài thành nhiều phần để truyền qua UDP.
 
-1.5. Kết quả mong đợi
-- Hệ thống **mô phỏng thành công** quá trình gửi – nhận cảnh báo thời gian thực.  
-- Server có thể phát cảnh báo đến **nhiều Client cùng lúc**.  
-- Client hiển thị thông tin cảnh báo ngay lập tức khi nhận được.  
-- Bộ mã nguồn được tổ chức rõ ràng, có thể mở rộng để tích hợp thêm các chức năng: lưu log, giao diện đồ họa, gửi thông báo đa nền tảng (Mobile/Web).  
+- Quản lý lịch sử: Lưu tất cả cảnh báo đã gửi vào server_log.csv với timestamp, loại, mức độ, nội dung, số lượng Client nhận.
 
- 🔧 2. Công nghệ & Công cụ sử dụng
+- Hẹn giờ & lặp cảnh báo: Cho phép gửi cảnh báo theo lịch định sẵn hoặc lặp lại theo khoảng thời gian.
+
+- Xử lý ACK & lỗi: Nhận phản hồi ACK từ Client, đánh dấu Client đã nhận cảnh báo; khi Client ngắt kết nối hoặc lỗi, vẫn tiếp tục phục vụ các Client khác.
+
+💻 Chức năng của Client:
+
+- Đăng ký Server: Gửi tin nhắn REGISTER kèm số tầng đến Server khi khởi động.
+
+- Nhận cảnh báo: Lắng nghe các gói UDP từ Server, ghép các gói PART[x/y] thành thông điệp đầy đủ.
+
+- Hiển thị thông báo: Popup cảnh báo, bảng thông tin trong GUI, phát âm thanh theo mức độ.
+
+- Lưu log: Ghi cảnh báo nhận được vào file client_log_floorX.csv.
+
+- Quản lý trạng thái: Hiển thị thông báo khi mất kết nối, xử lý lỗi nhận/gửi gói tin.
+
+🌐 Chức năng hệ thống:
+
+- Giao thức UDP: Dùng DatagramSocket/DatagramPacket, truyền tin nhanh, hỗ trợ broadcast/multicast, ưu tiên tốc độ hơn độ tin cậy tuyệt đối.
+
+- Trung gian quản lý cảnh báo: Server giữ vai trò trung tâm, tất cả thông tin cảnh báo đều đi qua Server.
+
+- Lưu trữ dữ liệu: File I/O (append mode) ghi kèm timestamp, loại cảnh báo, mức độ, nội dung, số tầng nhận.
+
+- Xử lý lỗi & bảo trì: Server và Client xử lý ngoại lệ, giữ hệ thống hoạt động liên tục, ghi log debug để kiểm tra.
+
+🔧 2. Công nghệ & Công cụ sử dụng
 - Ngôn ngữ lập trình: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)  
 - IDE: Eclipse / IntelliJ IDEA  
 - Giao thức: **UDP (Datagram Socket)**  
