@@ -91,7 +91,7 @@ Hệ thống có thể được ứng dụng trong nhiều lĩnh vực:
 </p>
 
 <p align="center">
-  <img src="[https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_client_1.png](https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server_khi_khoi_chay_2_client.png)" alt="Ảnh 4" width="800"/>
+  <img src="[https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server_khi_khoi_chay_2_client.png" alt="Ảnh 4" width="800"/>
 </p> 
 <p align="center">
   <em>Hình 4: Giao diện của Server khi khởi chạy 2 Client </em>
