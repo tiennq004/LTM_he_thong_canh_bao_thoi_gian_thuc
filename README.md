@@ -142,6 +142,7 @@ Các chức năng chính:
   <em>Hình 10: Dữ liệu được lưu vào file .csv </em>
 </p>
 ## 📂 4. Các bước cài đặt
+
 Bước 1: Tải dự án
 
 - Clone từ GitHub hoặc tải file zip về:
