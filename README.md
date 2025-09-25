@@ -141,7 +141,8 @@ Các chức năng chính:
 <p align="center">
   <em>Hình 10: Dữ liệu được lưu vào file .csv </em>
 </p>
-## 📂 4. Các bước cài đặt
+
+## 📂 4. Các bước cài đặt 
 
 Bước 1: Tải dự án
 
