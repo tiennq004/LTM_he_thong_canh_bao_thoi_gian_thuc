@@ -1,0 +1,6 @@
+Timestamp,Event Type,Alert Type,Floor,Apartment,Content,Status
+2025-10-13 15:49:40,REGISTER,N/A,8,817,"Registration sent",OK
+2025-10-13 15:54:05,ALERT_RECEIVED,N/A,8,817,"Khẩn cấp khác: Đóng tiền điện vào ngày 19 hàng tháng !!!!!",OK
+2025-10-13 15:54:05,ACK_SENT,N/A,8,817,"Alert ID: 1760345645724-249",OK
+2025-10-13 15:56:43,ALERT_RECEIVED,N/A,8,817,"Thang máy hỏng: Thang máy hỏng ở các tầng lẻ !!!",OK
+2025-10-13 15:56:43,ACK_SENT,N/A,8,817,"Alert ID: 1760345803553-984",OK

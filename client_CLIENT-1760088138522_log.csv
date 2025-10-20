@@ -1,0 +1,4 @@
+Timestamp,Event Type,Alert Type,Floor,Apartment,Content,Status
+2025-10-10 16:22:30,REGISTER,N/A,9,901,"Registration sent",OK
+2025-10-10 16:22:56,ALERT_RECEIVED,N/A,9,901,"Cháy nổ: jfhjfhjxf",OK
+2025-10-10 16:22:56,ACK_SENT,N/A,9,901,"Alert ID: 1760088176725-518",OK
