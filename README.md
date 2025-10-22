@@ -186,71 +186,61 @@ Các chức năng chính:
 
 ## 📂 4. Các bước cài đặt 
 
-Bước 1: Tải dự án
+Bước 1. Chuẩn bị môi trường
 
-- Clone từ GitHub hoặc tải file zip về:
+JDK 17+
 
-    git clone <repository_url>
+Eclipse IDE (phiên bản mới)
 
-Bước 2: Chuẩn bị môi trường
+Hệ điều hành: Windows 10/11
 
-- Cài đặt JDK 8+.
+Thư viện: java.net, javax.swing, java.io (có sẵn trong JDK)
 
-- Mở IDE Java và import dự án.
+Bước 2. Tải và mở dự án
 
-Bước 3: Chạy server
+Clone hoặc tải mã nguồn:
 
-- Mở AlertServer.java.
+    git clone https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc
 
-- Chạy file (Run/Debug).
+Mở Eclipse → File → Import → Existing Projects into Workspace
 
-- Server sẽ khởi tạo giao diện GUI với:
+→ Chọn thư mục dự án.
 
-    + Log
+Bước 3. Chạy ứng dụng
 
-    + Danh sách client
+🖥️ 1: Chạy Server
 
-    + Lịch sử cảnh báo
+Mở file Server.java trong thư mục server.
 
-    + Server sẽ tự động lắng nghe các client đăng ký.
+Nhấn Run để khởi động server.
 
-Bước 4: Chạy client
+Server sẽ bắt đầu lắng nghe các gói tin từ client và hiển thị giao diện điều khiển:
 
-- Mở AlertClient.java.
+Danh sách client đang hoạt động
 
-- Chạy file.
+Nhật ký cảnh báo
 
-- Nhập số tầng khi được hỏi (hoặc mặc định tạo ngẫu nhiên).
+Các nút gửi thông báo thử, xem log,...
 
-- Client sẽ tự động:
+💻 2: Chạy Client
 
-    + Gửi đăng ký (REGISTER) tới server
+Mở file Client.java trong thư mục client.
 
-    + Nhận cảnh báo
+Nhấn Run (Ctrl + F11) để khởi động client.
 
-    + Hiển thị popup và bảng thông tin cảnh báo
+Giao diện hiển thị thông tin từng tầng/phòng, nhận cảnh báo từ server.
 
-Bước 5: Gửi cảnh báo
+- Có thể chạy nhiều client trên cùng một máy hoặc máy khác trong mạng LAN (chỉ cần trùng địa chỉ IP subnet).
 
-- Trên server, nhập:
+- Đảm bảo Firewall không chặn cổng UDP (thường là cổng 8888 hoặc 9999 tùy cấu hình trong code).
 
-    + Loại cảnh báo
+Bước 5. Kết quả
 
-    + Mức độ
+Server hiển thị danh sách client đang hoạt động.
 
-    + Nội dung
+Khi 1 client gửi cảnh báo, các client khác sẽ nhận được thông báo ngay.
 
-    + Hẹn giờ (tùy chọn)
-
-    + Bấm Gửi ngay hoặc Hẹn giờ gửi.
-
-    + Client nhận và hiển thị cảnh báo.
-
-Bước 6: Kiểm tra log
-
-- Server: server_log.csv
-
-- Client: client_log_floorX.csv
+Log lưu tại server_log.csv.
 
 
 ## 🧑‍💻 5. Người thực hiện
