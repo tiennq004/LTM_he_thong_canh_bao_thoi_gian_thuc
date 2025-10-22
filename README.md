@@ -80,7 +80,7 @@ Các chức năng chính:
 </p>
 
 <p align="center">
-  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/client_1.png" alt="Ảnh 2" width="800"/>
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/khoi_chay_client.png" alt="Ảnh 2" width="800"/>
 </p> 
 <p align="center">
   <em>Hình 2: Khởi chạy Client </em>
