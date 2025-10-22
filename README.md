@@ -87,59 +87,101 @@ Các chức năng chính:
 </p>
 
 <p align="center">
-  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_client_1.png" alt="Ảnh 3" width="800"/>
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_client_sau_khi_khoi_chay.png" alt="Ảnh 3" width="800"/>
 </p> 
 <p align="center">
   <em>Hình 3: Giao diện của Client </em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server_khi_khoi_chay_2_client.png" alt="Ảnh 4" width="800"/>
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_cua_server_khi_khoi_chay_client.png" alt="Ảnh 4" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 4: Giao diện của Server khi khởi chạy 2 Client </em>
+  <em>Hình 4: Sau khi khởi chạy Client thông tin Client sẽ được lưu vào Server</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server_va_client_khi_gui_canh_bao.png" alt="Ảnh 5" width="800"/>
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/server_sau_khi_gui_canh_bao_den_toan_bo_toa_nha.png" alt="Ảnh 5" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 5: Giao diện của Server và Client khi gửi cảnh báo </em>
+  <em>Hình 5: Server sau khi gửi cảnh báo đến toàn bộ tòa nhà </em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server_va_client_khi_canh_bao_hen_gio.png" alt="Ảnh 6" width="800"/>
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/client_can_ho_810_tang_8_nhan_canh_bao_tu_server.png" alt="Ảnh 6" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 6: Giao diện của Server và Client khi gửi cảnh báo có hẹn giờ và tự động cảnh báo sau 5s </em>
+  <em>Hình 6: Client căn hộ 810 tầng 8 nhận cảnh báo từ Server </em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/Server_khi_dung_canh_bao.png" alt="Ảnh 7" width="800"/>
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/client_can_ho_1009_tang_10_nhan_canh_bao_tu_server.png" alt="Ảnh 7" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 7: Giao diện Server khi dừng cảnh báo </em>
+  <em>Hình 7: Client căn hộ 1009 tầng 10 nhận cảnh báo từ Server </em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/thong_tin_2_client.png" alt="Ảnh 8" width="800"/>
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/server_khi_gui_canh_bao_den_cac_tang_cu_the.png" alt="Ảnh 8" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 8: Thông tin của 2 Client </em>
+  <em>Hình 8: Server gửi cảnh báo đến các tầng cụ thể </em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/lich_su_gui_canh_bao_va_so_client_nhan_duoc_canh_bao.png" alt="Ảnh 9" width="800"/>
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/client_tang_10_ko_nhan_canh_bao_tu_server_khi_khong_duoc_gui_canh_bao.png" alt="Ảnh 9" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 9: Lịch sử cảnh báo và số Client nhận được cảnh báo </em>
+  <em>Hình 9: Client tầng 10 không nhận cảnh báo từ Server khi không được gửi cảnh báo </em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/du_lieu_luu_vao_csv.png" alt="Ảnh 10" width="800"/>
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/client_tang_8_nhan_canh_bao_tu_server.png" alt="Ảnh 10" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 10: Dữ liệu được lưu vào file .csv </em>
+  <em>Hình 10: Client tầng 8 nhận cảnh báo từ Server </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/server_gui_canh_bao_tu_dong.png" alt="Ảnh 11" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 11: Server gửi cảnh báo tự động đến toàn bộ tòa nhà sau </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/server_gui_canh_bao_tu_dong_sau_5s.png" alt="Ảnh 12" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 12: Server gửi cảnh báo tự động đến toàn bộ tòa nhà sau 5 giây </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/nhat_ky_gui_canh_bao.png" alt="Ảnh 13" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 13: Nhật ký gửi cảnh báo </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/lich_su_gui_canh_bao.png" alt="Ảnh 14" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 14: Lịch sử cảnh báo </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/khi_tat_1_client_se_co_trang_thai_offline.png" alt="Ảnh 15" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 15: Trạng thái của 1 Client khi tắt đi sẽ chuyển thành Offline </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/du_lieu_duoc_luu_vao_file.xlsx.png" alt="Ảnh 16" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 16: Dữ liệu được lưu vào file.xlsx </em>
 </p>
 
 ## 📂 4. Các bước cài đặt 
