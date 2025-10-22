@@ -210,25 +210,25 @@ Bước 3. Chạy ứng dụng
 
 🖥️ 1: Chạy Server
 
-Mở file Server.java trong thư mục server.
+- Mở file Server.java trong thư mục server.
 
-Nhấn Run để khởi động server.
+- Nhấn Run để khởi động server.
 
-Server sẽ bắt đầu lắng nghe các gói tin từ client và hiển thị giao diện điều khiển:
+- Server sẽ bắt đầu lắng nghe các gói tin từ client và hiển thị giao diện điều khiển:
 
-Danh sách client đang hoạt động
+- Danh sách client đang hoạt động
 
-Nhật ký cảnh báo
+- Nhật ký cảnh báo
 
-Các nút gửi thông báo thử, xem log,...
+- Các nút gửi thông báo thử, xem log,...
 
 💻 2: Chạy Client
 
-Mở file Client.java trong thư mục client.
+- Mở file Client.java trong thư mục client.
 
-Nhấn Run (Ctrl + F11) để khởi động client.
+- Nhấn Run để khởi động client.
 
-Giao diện hiển thị thông tin từng tầng/phòng, nhận cảnh báo từ server.
+- Giao diện hiển thị thông tin từng tầng/phòng, nhận cảnh báo từ server.
 
 - Có thể chạy nhiều client trên cùng một máy hoặc máy khác trong mạng LAN (chỉ cần trùng địa chỉ IP subnet).
 
@@ -236,12 +236,11 @@ Giao diện hiển thị thông tin từng tầng/phòng, nhận cảnh báo t�
 
 Bước 5. Kết quả
 
-Server hiển thị danh sách client đang hoạt động.
+- Server hiển thị danh sách client đang hoạt động.
 
-Khi 1 client gửi cảnh báo, các client khác sẽ nhận được thông báo ngay.
+- Khi 1 client gửi cảnh báo, các client khác sẽ nhận được thông báo ngay.
 
-Log lưu tại server_log.csv.
-
+- Log lưu tại server_log.csv.
 
 ## 🧑‍💻 5. Người thực hiện
 - Sinh viên: **Nguyễn Quang Tiến** (MSSV: 1671020318)  
