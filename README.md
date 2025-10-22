@@ -188,23 +188,23 @@ Các chức năng chính:
 
 Bước 1. Chuẩn bị môi trường
 
-JDK 17+
+- JDK 17+
 
-Eclipse IDE (phiên bản mới)
+- Eclipse IDE (phiên bản mới)
 
-Hệ điều hành: Windows 10/11
+- Hệ điều hành: Windows 10/11
 
-Thư viện: java.net, javax.swing, java.io (có sẵn trong JDK)
+- Thư viện: java.net, javax.swing, java.io (có sẵn trong JDK)
 
 Bước 2. Tải và mở dự án
 
-Clone hoặc tải mã nguồn:
+- Clone hoặc tải mã nguồn:
 
     git clone https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc
 
-Mở Eclipse → File → Import → Existing Projects into Workspace
+- Mở Eclipse → File → Import → Existing Projects into Workspace
 
-→ Chọn thư mục dự án.
+- → Chọn thư mục dự án.
 
 Bước 3. Chạy ứng dụng
 
