@@ -23,46 +23,31 @@
 
 📖 1. Giới thiệu hệ thống
 
-Hệ thống cảnh báo thời gian thực tại chung cư The Vesta sử dụng mô hình Client–Server với giao thức UDP, cho phép nhiều tầng/cư dân nhận cảnh báo cùng lúc.
+- Hệ thống Cảnh báo Thời gian Thực là một ứng dụng mô phỏng cơ chế gửi và nhận cảnh báo trong chung cư, được xây dựng bằng Java và giao thức UDP.
+- 
+- Mục tiêu chính của hệ thống là giúp máy chủ (Server) có thể nhanh chóng gửi thông tin cảnh báo (cháy nổ, rò gas, mất điện, v.v...) tới nhiều máy khách (Client) trong mạng nội bộ theo thời gian thực.
 
-Server: đóng vai trò trung tâm, gửi cảnh báo đến tất cả Client đang hoạt động, lưu lịch sử cảnh báo và quản lý kết nối.
-Client: nhận cảnh báo, hiển thị thông tin và phát âm thanh tương ứng với mức độ khẩn cấp.
+Ứng dụng bao gồm hai phần chính:
 
-Các chức năng chính:
+- Server:
 
-🖥️ Chức năng của Server:
+    Quản lý danh sách các client đang hoạt động.
 
-- Kết nối & quản lý Client: Lắng nghe các Client đăng ký, lưu danh sách Client đang hoạt động, quản lý IP/port/tầng.
+    Gửi thông báo cảnh báo đến toàn bộ client.
 
-- Gửi cảnh báo: Server phát cảnh báo đến tất cả Client (one-to-many), có thể chia gói tin dài thành nhiều phần để truyền qua UDP.
+    Lưu lịch sử cảnh báo vào tệp server_log.csv.
 
-- Quản lý lịch sử: Lưu tất cả cảnh báo đã gửi vào server_log.csv với timestamp, loại, mức độ, nội dung, số lượng Client nhận.
+- Client:
 
-- Hẹn giờ & lặp cảnh báo: Cho phép gửi cảnh báo theo lịch định sẵn hoặc lặp lại theo khoảng thời gian.
+    Nhận cảnh báo từ server và hiển thị trực quan trên giao diện.
 
-- Xử lý ACK & lỗi: Nhận phản hồi ACK từ Client, đánh dấu Client đã nhận cảnh báo; khi Client ngắt kết nối hoặc lỗi, vẫn tiếp tục phục vụ các Client khác.
+    Gửi phản hồi xác nhận (ACK) về cho server.
 
-💻 Chức năng của Client:
+    Hiển thị thông tin căn hộ, tầng, trạng thái kết nối.
 
-- Đăng ký Server: Gửi tin nhắn REGISTER kèm số tầng đến Server khi khởi động.
+- Hệ thống được phát triển bằng Eclipse IDE, sử dụng Java Swing để xây dựng giao diện và java.net (DatagramSocket, DatagramPacket) để xử lý truyền nhận dữ liệu.
 
-- Nhận cảnh báo: Lắng nghe các gói UDP từ Server, ghép các gói PART[x/y] thành thông điệp đầy đủ.
-
-- Hiển thị thông báo: Popup cảnh báo, bảng thông tin trong GUI, phát âm thanh theo mức độ.
-
-- Lưu log: Ghi cảnh báo nhận được vào file client_log_floorX.csv.
-
-- Quản lý trạng thái: Hiển thị thông báo khi mất kết nối, xử lý lỗi nhận/gửi gói tin.
-
-🌐 Chức năng hệ thống:
-
-- Giao thức UDP: Dùng DatagramSocket/DatagramPacket, truyền tin nhanh, hỗ trợ broadcast/multicast, ưu tiên tốc độ hơn độ tin cậy tuyệt đối.
-
-- Trung gian quản lý cảnh báo: Server giữ vai trò trung tâm, tất cả thông tin cảnh báo đều đi qua Server.
-
-- Lưu trữ dữ liệu: File I/O (append mode) ghi kèm timestamp, loại cảnh báo, mức độ, nội dung, số tầng nhận.
-
-- Xử lý lỗi & bảo trì: Server và Client xử lý ngoại lệ, giữ hệ thống hoạt động liên tục, ghi log debug để kiểm tra.
+- Nhờ đó, chương trình hoạt động nhẹ, dễ triển khai, phù hợp cho mô phỏng các hệ thống cảnh báo trong tòa nhà, khu dân cư hoặc nhà máy.
 
 🔧 2. Công nghệ & Công cụ sử dụng
 - Ngôn ngữ lập trình: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)  
