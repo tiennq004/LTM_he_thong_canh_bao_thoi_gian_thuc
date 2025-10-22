@@ -24,26 +24,26 @@
 📖 1. Giới thiệu hệ thống
 
 - Hệ thống Cảnh báo Thời gian Thực là một ứng dụng mô phỏng cơ chế gửi và nhận cảnh báo trong chung cư, được xây dựng bằng Java và giao thức UDP.
-- 
+
 - Mục tiêu chính của hệ thống là giúp máy chủ (Server) có thể nhanh chóng gửi thông tin cảnh báo (cháy nổ, rò gas, mất điện, v.v...) tới nhiều máy khách (Client) trong mạng nội bộ theo thời gian thực.
 
-Ứng dụng bao gồm hai phần chính:
+-Ứng dụng bao gồm hai phần chính:
 
-- Server:
+    - Server:
 
-    Quản lý danh sách các client đang hoạt động.
+        Quản lý danh sách các client đang hoạt động.
 
-    Gửi thông báo cảnh báo đến toàn bộ client.
+        Gửi thông báo cảnh báo đến toàn bộ client.
+    
+        Lưu lịch sử cảnh báo vào tệp server_log.csv.
 
-    Lưu lịch sử cảnh báo vào tệp server_log.csv.
+    - Client:
 
-- Client:
+        Nhận cảnh báo từ server và hiển thị trực quan trên giao diện.
 
-    Nhận cảnh báo từ server và hiển thị trực quan trên giao diện.
+        Gửi phản hồi xác nhận (ACK) về cho server.
 
-    Gửi phản hồi xác nhận (ACK) về cho server.
-
-    Hiển thị thông tin căn hộ, tầng, trạng thái kết nối.
+        Hiển thị thông tin căn hộ, tầng, trạng thái kết nối.
 
 - Hệ thống được phát triển bằng Eclipse IDE, sử dụng Java Swing để xây dựng giao diện và java.net (DatagramSocket, DatagramPacket) để xử lý truyền nhận dữ liệu.
 
