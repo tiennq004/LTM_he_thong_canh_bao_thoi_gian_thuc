@@ -29,31 +29,48 @@
 
 - Ứng dụng bao gồm hai phần chính:
 
-    - Server:
+    - 🖥️ 1. Phần Server
 
-        - Quản lý danh sách các client đang hoạt động.
-
-        - Gửi thông báo cảnh báo đến toàn bộ client.
+        - Là trung tâm điều phối và gửi cảnh báo.
     
-        - Lưu lịch sử cảnh báo vào tệp server_log.csv.
+        - Lưu trữ danh sách các client đang kết nối trong mạng.
+    
+        - Phát cảnh báo đồng loạt đến tất cả client thông qua giao thức UDP.
+    
+        - Ghi lại lịch sử cảnh báo và phản hồi vào tệp server_log.csv.
+    
+        - Có thể kiểm tra trạng thái kết nối của từng tầng, từng căn hộ (qua các panel).
 
-    - Client:
+    - 💻 2. Phần Client
 
-        - Nhận cảnh báo từ server và hiển thị trực quan trên giao diện.
+        - Đại diện cho một căn hộ trong tòa nhà.
 
-        - Gửi phản hồi xác nhận (ACK) về cho server.
+        - Kết nối đến server qua địa chỉ IP và cổng UDP được cấu hình sẵn.
 
-        - Hiển thị thông tin căn hộ, tầng, trạng thái kết nối.
+        - Khi nhận được thông báo từ server, client sẽ:
+
+        - Hiển thị thông tin cảnh báo trên giao diện (bằng màu sắc, biểu tượng, âm thanh).
+
+        - Gửi phản hồi xác nhận (ACK) về server để xác nhận đã nhận cảnh báo.
+
+        - Giao diện được xây dựng bằng Java Swing, hiển thị thông tin như tầng, căn hộ, trạng thái, thời gian nhận cảnh báo.
 
 - Hệ thống được phát triển bằng Eclipse IDE, sử dụng Java Swing để xây dựng giao diện và java.net (DatagramSocket, DatagramPacket) để xử lý truyền nhận dữ liệu.
 
 - Nhờ đó, chương trình hoạt động nhẹ, dễ triển khai, phù hợp cho mô phỏng các hệ thống cảnh báo trong tòa nhà, khu dân cư hoặc nhà máy.
 
 🔧 2. Công nghệ & Công cụ sử dụng
-- Ngôn ngữ lập trình: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)  
-- IDE: Eclipse / IntelliJ IDEA  
-- Giao thức: **UDP (Datagram Socket)**  
-- Quản lý mã nguồn: Git & GitHub  
+- Ngôn ngữ lập trình: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+
+- IDE: Eclipse
+
+- Giao thức truyền: UDP (DatagramSocket, DatagramPacket)
+
+- Thư viện giao diện: Java Swing
+
+- Lưu trữ dữ liệu: Tệp CSV (CSVLogger.java)
+
+- Thành phần mở rộng: đồng hồ thời gian thực (ClockPanel.java) hiển thị trong giao diện server.
 
 
 ## 🚀 3. Hình ảnh các chức năng chính
