@@ -27,7 +27,7 @@
 
 - Mục tiêu chính của hệ thống là giúp máy chủ (Server) có thể nhanh chóng gửi thông tin cảnh báo (cháy nổ, rò gas, mất điện, v.v...) tới nhiều máy khách (Client) trong mạng nội bộ theo thời gian thực.
 
--Ứng dụng bao gồm hai phần chính:
+- Ứng dụng bao gồm hai phần chính:
 
     - Server:
 
