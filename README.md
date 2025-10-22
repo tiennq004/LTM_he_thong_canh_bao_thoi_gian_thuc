@@ -31,19 +31,19 @@
 
     - Server:
 
-        Quản lý danh sách các client đang hoạt động.
+        - Quản lý danh sách các client đang hoạt động.
 
-        Gửi thông báo cảnh báo đến toàn bộ client.
+        - Gửi thông báo cảnh báo đến toàn bộ client.
     
-        Lưu lịch sử cảnh báo vào tệp server_log.csv.
+        - Lưu lịch sử cảnh báo vào tệp server_log.csv.
 
     - Client:
 
-        Nhận cảnh báo từ server và hiển thị trực quan trên giao diện.
+        - Nhận cảnh báo từ server và hiển thị trực quan trên giao diện.
 
-        Gửi phản hồi xác nhận (ACK) về cho server.
+        - Gửi phản hồi xác nhận (ACK) về cho server.
 
-        Hiển thị thông tin căn hộ, tầng, trạng thái kết nối.
+        - Hiển thị thông tin căn hộ, tầng, trạng thái kết nối.
 
 - Hệ thống được phát triển bằng Eclipse IDE, sử dụng Java Swing để xây dựng giao diện và java.net (DatagramSocket, DatagramPacket) để xử lý truyền nhận dữ liệu.
 
